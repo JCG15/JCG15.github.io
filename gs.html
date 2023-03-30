@@ -1,0 +1,147 @@
+<html>
+		<head>
+			<title> JCG/GS </title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="estilosgs.css">
+			<link rel="icon" type="image/jpg" href="imagenes/icono.jpg">
+		</head>
+		<body>
+			<div class="capapadre">
+				<div class="menu">
+					<div class="logo">JCG</div>
+					<div class="logojcg"></div>
+					<center> <div class="capadesplegable">
+					<center> <nav id="menu">
+						<ul>
+						  <li class="boton1"><a href="index.html">Inicio</a></li>
+						  <li class="boton2"><a href="#">Estudios</a> 
+							<ul>
+						  		<li><a href="gm.html" >Grado Medio</a></li>
+						  		<li><a href="gs.html">Grado Superior</a></li>
+						  	</ul>
+						  </li>
+						  <li class="boton3"><a href="conocenos.html">Mis Páginas Web</a>
+						  <ul>
+								<li> <a href="https://jcg15.github.io/launchstore.github.io/" target="_blank"> <img src="imagenes/iconoLS.jpg" width="15" height="15"> LaunchStore </a> </li>
+							</ul>
+						  </li>
+						  <li class="boton4"><a href="#">Redes sociales</a>
+							<ul>
+								<li> <a href="https://www.instagram.com/jcg015/" target="_blank"> <img src="imagenes/insta.png" width="15" height="15"> jcg015 </a> </li>
+								<li><a href="https://twitter.com/JorgeCg15" target="_blank"> <img src="imagenes/twitter.png" width="15" height="15"> @JorgeCg15 </a> </li>
+								<li> <a href="https://www.facebook.com/jorge.cg.52" target="_blank"> <img src="imagenes/facebook.png" width="15" height="15"> Jorge Cg </a> </li>
+							</ul>
+						  </li>
+						  <li class="boton5"><a href="#">Hobbies</a>
+						  <ul>
+						  	<li> <a href="hobbies/hcs.html"> <img src="imagenes/cine.png" width="15" height="15"> Cine/Series </a> </li>
+							<li> <a href="hobbies/hm.html"> <img src="imagenes/musica.png" width="15" height="15"> Música </a> </li>
+							<li> <a href="hobbies/hv.html"> <img src="imagenes/juegos.png" width="15" height="15"> Videojuegos </a> </li>
+							<li> <a href="hobbies/hc.html"> <img src="imagenes/comic.png" width="15" height="15"> Cómics </a> </li>
+							<li> <a href="hobbies/hd.html"> <img src="imagenes/deporte.png" width="15" height="15"> Deporte </a> </li>
+						  </ul>
+						  </li>
+						</ul>
+					</nav> </center>					
+			</div></center>
+				<div class="logoETG"></div>
+			<div class="datos">
+
+				<h1>Desarrollo de aplicaciones multiplataforma</h1>
+				Realicé el grado superior de desarrollo de aplicaciones multiplataforma en el centro IES Enrique Tierno Galván de Parla, allí aprendí:	<br>
+				<ul>
+					<li>
+						<h2> Unity </h2>
+					</li>
+					<li>
+						<h2> Android Studio </h2>
+					</li>
+					<li>
+						<h2> Visual Studio </h2>
+					</li>
+					<li>
+						<h2> HTML , CSS , PHP y JavaScript </h2>
+					</li>
+					<li>
+						<h2> Sistemas Informáticos </h2>
+					</li>
+					<li>
+						<h2> Java </h2>
+					</li>
+					<li>
+						<h2> SQL </h2>
+					</li>
+				</ul><br>
+				Realicé un juego en Unity con los conceptos que nos dieron:
+				<br><br>
+			<div class="slider">
+				<div class="w3-content w3-display-container" style="max-width:600px">
+				  <img class="mySlides" src="imagenes/juegoc1.jpg" style="width:100%">
+				  <img class="mySlides" src="imagenes/juegoc2.jpg" style="width:100%">
+				  <img class="mySlides" src="imagenes/juegoc3.jpg" style="width:100%">
+				  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+				    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+				    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+					</div>
+				</div>
+	
+				<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				  showDivs(slideIndex += n);
+				}
+
+				function currentDiv(n) {
+				  showDivs(slideIndex = n);
+				}
+
+				function showDivs(n) {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("demo");
+				  if (n > x.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = x.length}
+				  for (i = 0; i < x.length; i++) {
+				     x[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				     dots[i].className = dots[i].className.replace(" w3-white", "");
+				  }
+				  x[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " w3-white";
+				}
+				</script>
+			</div>
+			
+				<h3>¿Quieres probarlo? :<a href="trabajos/TrabajoUnity.rar" download="TrabajoUnity.rar"> Descargar</a> </h3>
+			
+				<br><br>
+				
+				Para el trabajo de fin de grado, realicé junto con mi amigo y compañero una aplicación para ordenador y móvil, la cual consistía en una serie de minijuegos orientados a personas con discapacidad, aquí os dejo una imagen de la aplicación para ordenador para que podáis verla y abajo os dejo el link para poder ver el documento oficial con toda la información:
+				
+				<br><br>
+				<center>
+				<img src="imagenes/appgs.jpg">
+				</center>
+				<br>
+				<h3>Documento del TFG:<a href="trabajos/Proyecto_Final_TFG.pdf" download="Proyecto_Final_TFG.pdf"> Descargar </a> </h3>
+				<br><br>
+				<h2>Ubicación:</h2>
+				<center>
+					<div class="mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.2429074483366!2d-3.7706506846098615!3d40.22590107938769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f515ff26300d%3A0x596e471ebb1e70c7!2sIES%20Tierno%20Galv%C3%A1n!5e0!3m2!1ses!2ses!4v1679739540124!5m2!1ses!2ses" width="740" height="430" frameborder="0" style="border:0;" allowfullscreen></iframe> </div>
+				</center>
+				<br><br><br>
+				<h1>Nota final:</h1> <h2> <div class="nota">7,63</div> </h2>
+			</div>
+			<div class="info">
+				<div class="privacidad"><a href="privacidad.html">Política de privacidad y cookies</a></div>
+				<div class="terminos"><a href="terminos.html">Términos y condiciones</a></div>
+				<div class="copy">© 2023 JCG Plc. All Rights Reserved.</div>
+			</div>
+	</body>
+</html>
